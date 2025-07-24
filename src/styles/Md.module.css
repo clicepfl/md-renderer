@@ -1,0 +1,15 @@
+.md {
+  max-width: 80ch;
+  background-color: #222;
+  color: #888 !important;
+
+  padding: 2rem;
+}
+
+.md :is(h1, h2, h3, h4, h5, h6) {
+  color: #bbb;
+}
+
+.md a {
+  color: rgb(66, 159, 227);
+}
